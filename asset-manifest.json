@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c1686af.css",
-    "main.js": "/static/js/main.4eb317a7.js",
-    "static/js/787.5bea993f.chunk.js": "/static/js/787.5bea993f.chunk.js",
-    "static/media/deskMan.png": "/static/media/deskMan.e30567f100d9f7252f29.png",
-    "static/media/Shadow3.png": "/static/media/Shadow3.57f95127ff1b9e3956a1.png",
-    "static/media/Shadow2.png": "/static/media/Shadow2.b0cd25e592be5218ee21.png",
-    "static/media/Shadow1.png": "/static/media/Shadow1.c52363d4a792de64a7a7.png",
-    "static/media/greenShadow.png": "/static/media/greenShadow.5793833ce57da13551a8.png",
-    "static/media/GTWalsheimPro-Bold.ttf": "/static/media/GTWalsheimPro-Bold.2dbf49e9fcb548837711.ttf",
-    "static/media/mobileMan.png": "/static/media/mobileMan.0c2be1e39343136860d0.png",
-    "static/media/GTWalsheimPro-Regular.ttf": "/static/media/GTWalsheimPro-Regular.1fd3cd7ade0f79b2152a.ttf",
-    "static/media/Blur_ellipse.png": "/static/media/Blur_ellipse.248ebe2a31d379f46d92.png",
-    "static/media/Pink_ellipse.png": "/static/media/Pink_ellipse.5795d3e125459c569503.png",
-    "static/media/emoji1.png": "/static/media/emoji1.ed5158dac00d058af4f8.png",
-    "static/media/emoji3.png": "/static/media/emoji3.98f0dc71a40333e89095.png",
-    "static/media/emoji2.png": "/static/media/emoji2.8a34e0289ba9decdc48e.png",
-    "static/media/emoji4.png": "/static/media/emoji4.c44b08005ef2b890d55b.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.2c1686af.css.map": "/static/css/main.2c1686af.css.map",
-    "main.4eb317a7.js.map": "/static/js/main.4eb317a7.js.map",
-    "787.5bea993f.chunk.js.map": "/static/js/787.5bea993f.chunk.js.map"
+    "main.css": "/nft-page/static/css/main.fc0d46f4.css",
+    "main.js": "/nft-page/static/js/main.6cb7b348.js",
+    "static/js/787.5bea993f.chunk.js": "/nft-page/static/js/787.5bea993f.chunk.js",
+    "static/media/deskMan.png": "/nft-page/static/media/deskMan.e30567f100d9f7252f29.png",
+    "static/media/Shadow3.png": "/nft-page/static/media/Shadow3.57f95127ff1b9e3956a1.png",
+    "static/media/Shadow2.png": "/nft-page/static/media/Shadow2.b0cd25e592be5218ee21.png",
+    "static/media/Shadow1.png": "/nft-page/static/media/Shadow1.c52363d4a792de64a7a7.png",
+    "static/media/greenShadow.png": "/nft-page/static/media/greenShadow.5793833ce57da13551a8.png",
+    "static/media/GTWalsheimPro-Bold.ttf": "/nft-page/static/media/GTWalsheimPro-Bold.2dbf49e9fcb548837711.ttf",
+    "static/media/mobileMan.png": "/nft-page/static/media/mobileMan.0c2be1e39343136860d0.png",
+    "static/media/GTWalsheimPro-Regular.ttf": "/nft-page/static/media/GTWalsheimPro-Regular.1fd3cd7ade0f79b2152a.ttf",
+    "static/media/Blur_ellipse.png": "/nft-page/static/media/Blur_ellipse.248ebe2a31d379f46d92.png",
+    "static/media/Pink_ellipse.png": "/nft-page/static/media/Pink_ellipse.5795d3e125459c569503.png",
+    "static/media/emoji1.png": "/nft-page/static/media/emoji1.ed5158dac00d058af4f8.png",
+    "static/media/emoji3.png": "/nft-page/static/media/emoji3.98f0dc71a40333e89095.png",
+    "static/media/emoji2.png": "/nft-page/static/media/emoji2.8a34e0289ba9decdc48e.png",
+    "static/media/emoji4.png": "/nft-page/static/media/emoji4.c44b08005ef2b890d55b.png",
+    "index.html": "/nft-page/index.html",
+    "main.fc0d46f4.css.map": "/nft-page/static/css/main.fc0d46f4.css.map",
+    "main.6cb7b348.js.map": "/nft-page/static/js/main.6cb7b348.js.map",
+    "787.5bea993f.chunk.js.map": "/nft-page/static/js/787.5bea993f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c1686af.css",
-    "static/js/main.4eb317a7.js"
+    "static/css/main.fc0d46f4.css",
+    "static/js/main.6cb7b348.js"
   ]
 }
