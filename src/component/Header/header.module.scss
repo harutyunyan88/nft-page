@@ -1,0 +1,93 @@
+.header {
+  padding: 10px 0 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  .burger_menu_button {
+    display: none;
+    @media (max-width: 768px) {
+      display: block;
+    }
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    grid-gap: 6px;
+    > img:first-child {
+      max-width: 41px;
+      width: 100%;
+    }
+    > img:last-child {
+      max-width: 73px;
+      width: 100%;
+    }
+  }
+  .navbar {
+    @media (max-width: 768px) {
+      display: none;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      grid-gap: 50px;
+      @media (max-width: 1024px) {
+        grid-gap: 20px;
+      }
+      > li:first-child {
+        margin-right: 55px;
+        @media (max-width: 1024px) {
+          margin-right: 25px;
+        }
+      }
+      > li:last-child {
+        margin-left: 100px;
+        @media (max-width: 1024px) {
+          margin-left: 25px;
+        }
+      }
+      li {
+        display: block;
+        a {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 23px;
+          line-height: 120%;
+          color: #cecece;
+          text-decoration: none;
+          &:hover {
+            transition: 0.3s;
+            color: #c3f33b;
+          }
+        }
+        button {
+          max-width: 175px;
+          width: 100%;
+          padding: 15px 20px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          color: #ffffff;
+          border: 1px solid #ffffff;
+          border-radius: 15px;
+          background: none;
+          &:hover {
+            cursor: pointer;
+            transition: 0.3s;
+            border: 1px solid #c3f33b;
+            color: #c3f33b;
+          }
+          &:active {
+            color: #c3f33b;
+            background: rgba(224, 255, 172, 0.05);
+            border: 1px solid #c3f33b;
+            backdrop-filter: blur(7.5px);
+          }
+        }
+      }
+    }
+  }
+}

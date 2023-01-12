@@ -1,0 +1,103 @@
+.burger_menu_nav {
+  padding: 30px 20px 60px 20px;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  width: 90%;
+  display: flex;
+  flex-flow: column;
+  background-color: #293344;
+  overflow-y: auto;
+  right: -100%;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+  border-bottom-left-radius: 30px;
+  > .burger_menu_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 54px;
+    > .logo {
+      display: flex;
+      align-items: center;
+      grid-gap: 6px;
+      > img:first-child {
+        max-width: 27px;
+        width: 100%;
+      }
+      > img:last-child {
+        max-width: 48px;
+        width: 100%;
+      }
+    }
+  }
+  > .burger_menu_items {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+    margin-bottom: 90px;
+    > a {
+      text-decoration: none;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 23px;
+      line-height: 120%;
+      color: #cecece;
+      &:active {
+        transition: 0.3s;
+        color: #c3f33b;
+      }
+    }
+  }
+  > a {
+    max-width: 175px;
+    width: 100%;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    background: none;
+    &:hover {
+      cursor: pointer;
+      transition: 0.3s;
+      border: 1px solid #c3f33b;
+      color: #c3f33b;
+    }
+    &:active {
+      color: #c3f33b;
+      background: rgba(224, 255, 172, 0.05);
+      border: 1px solid #c3f33b;
+      backdrop-filter: blur(7.5px);
+    }
+  }
+}
+.burger_menu_active .burger_menu_nav {
+  right: 0;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.burger_menu_overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+.burger_menu_active .burger_menu_overlay {
+  display: block;
+  background: rgba(48, 9, 97, 0.3);
+  backdrop-filter: blur(7.5px);
+}
