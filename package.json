@@ -2,7 +2,7 @@
   "name": "test-nft",
   "version": "0.1.0",
   "homepage": "https://harutyunyan88.github.io/nft-page",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
