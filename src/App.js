@@ -5,12 +5,13 @@ import StudyInfo from "./pages/StudyInfo/StudyInfo";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/study-information" element={<StudyInfo />} />
-      </Routes>
-    </BrowserRouter>
+    <div>test</div>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/" element={<Home />} />
+    //     <Route path="/study-information" element={<StudyInfo />} />
+    //   </Routes>
+    // </BrowserRouter>
   );
 }
 
